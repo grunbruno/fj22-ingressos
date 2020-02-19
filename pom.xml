@@ -149,5 +149,10 @@
             </plugin>
         </plugins>
     </build>
-
+	<developers>
+		<developer>
+			<name>DENISE DA SILVA </name>
+			<email> denise@br.com</email>
+		</developer>
+	</developers>
 </project>
