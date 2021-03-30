@@ -100,11 +100,12 @@
             <version>5.2.4.Final</version>
         </dependency>
 
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.40</version>
-        </dependency>
+       <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.23</version>
+		</dependency>
 
         <dependency>
             <groupId>commons-dbcp</groupId>
@@ -155,4 +156,11 @@
 			<email> grunbruno@gmail.com</email>
 		</developer>
 	</developers>
+	<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>http:\\localhost</url>
+       </repository>
+   </distributionManagement>
 </project>
